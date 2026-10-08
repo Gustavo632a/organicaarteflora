@@ -1,0 +1,3 @@
+export const INSTAGRAM_URL = 'https://www.instagram.com/organica.arteflora/';
+export const MAPS_URL = 'https://www.google.com/maps/place/Org%C3%A2nica+Art+%26+Flora/@-7.1511444,-34.9762694,15.21z/data=!4m20!1m13!4m12!1m4!2m2!1d-34.869873!2d-7.2030606!4e1!1m6!1m2!1s0x7acefe151fecccf:0xc522a70b915772a7!2sOrg%C3%A2nica+Art+%26+Flora,+Rua+Riacho+dos+Cavalos,+Bairro+dos+municipios,+105+-+Tibiri+II,+Santa+Rita+-+PB,+58302-225!2m2!1d-34.9615098!2d-7.1541957!3m5!1s0x7acefe151fecccf:0xc522a70b915772a7!8m2!3d-7.1541957!4d-34.9615098!16s%2Fg%2F11z7q5yrkn';
+export const navigation = [['Início', '#inicio'], ['Pinturas', '#pinturas'], ['Sobre', '#sobre'], ['Nosso espaço', '#espaco'], ['Localização', '#localizacao'], ['Contato', '#contato']];

@@ -1,0 +1,5 @@
+import { ArrowUpRight } from 'lucide-react';
+import { products } from '../data/products';
+import { PRODUCT_MESSAGE, createWhatsAppUrl } from '../utils/whatsapp';
+import { ExternalLink, Photo } from './Shared';
+export default function Products() { return <section id="produtos" className="section container reveal"><div className="section-heading"><div><p className="eyebrow">01 / NOSSA SELEÇÃO</p><h2>Natureza para <em>cada espaço.</em></h2></div><p>Conheça algumas das opções que você pode encontrar na Orgânica Art & Flora.</p></div><div className="products-grid">{products.map((product, i) => <article className="product" key={product.title}><div className="product-photo"><Photo src={product.image} alt={product.alt} /><span>0{i + 1}</span></div><h3>{product.title}</h3><p>{product.description}</p><ExternalLink href={createWhatsAppUrl(PRODUCT_MESSAGE)} className="text-link">{product.button}<ArrowUpRight size={18} /></ExternalLink></article>)}</div><p className="muted-note">Consulte as opções disponíveis pelo WhatsApp. Foto de arranjo ilustrativa.</p></section>; }
